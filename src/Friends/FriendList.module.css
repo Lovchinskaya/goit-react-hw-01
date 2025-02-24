@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+}
+/* .card {
+    display: flex;
+    border: 2px solid red;
+} */
+.image {
+    width: 25px;
+    height: 25px;
+}
