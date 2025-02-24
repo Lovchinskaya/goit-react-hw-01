@@ -1,4 +1,4 @@
-import userData from "../userData.json";
+import userData from "../../userData.json";
 import css from "./Profile.module.css";
 
 const {username, tag, location, avatar, stats: {followers, views, likes}} = userData;

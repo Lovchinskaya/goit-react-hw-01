@@ -1,4 +1,4 @@
-import FriendListItem from '../FriendListItems/FriendListItems';
+import FriendListItem from '../../FriendListItems/FriendListItems';
 import css from './FriendList.module.css';
 
 
