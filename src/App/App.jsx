@@ -3,7 +3,8 @@
 // import viteLogo from '/vite.svg'
 // import css from'./App.module.css';
 import Profile from '../Profile/Profile';
-// import FriendListItems from '../Friends/'
+import FriendList from '../Friends/FriendList'
+import friends from "../friends.json";
 
 // import userData from "../userData.json";
 
@@ -17,7 +18,7 @@ export default function App () {
         // image={userData.avatar}
         // stats={userData.stats}
       />
-      {/* <FriendListItems /> */}
+      <FriendList friends={friends}/>
     </>
   );
 };
