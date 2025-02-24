@@ -1,12 +1,7 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import css from'./App.module.css';
 import Profile from '../Profile/Profile';
-import FriendList from '../Friends/FriendList'
+import FriendList from '../FriendList/FriendList'
 import friends from "../friends.json";
 
-// import userData from "../userData.json";
 
 export default function App () {
   return (

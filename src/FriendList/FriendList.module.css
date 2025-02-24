@@ -1,11 +1,6 @@
-/* .wrapper {
+.friendList{
     display: flex;
-} */
-/* .card {
-    display: flex;
-    border: 2px solid red;
-} */
-.image {
-    width: 25px;
-    height: 25px;
+    padding: 0;
+    gap: 30px;
+    margin-top: 50px;
 }

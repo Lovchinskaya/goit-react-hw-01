@@ -8,6 +8,7 @@
     border-radius: 25px;
     align-items: center;
     padding-bottom: 0px;;
+    max-width: 375px;
   }
   .wrapper {
     display: flex;
