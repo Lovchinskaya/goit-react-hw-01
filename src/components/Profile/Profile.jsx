@@ -1,14 +1,12 @@
-import userData from "../../userData.json";
 import css from "./Profile.module.css";
 
-const {username, tag, location, avatar, stats: {followers, views, likes}} = userData;
 
-export default function Profile () {
+export default function Profile ({username, tag, location, image, stats: {followers, views, likes}}) {
 return (
     <div className={css.list}>
         <div className={css.wrapper}>
             <img className={css.avatar}
-                src={avatar}
+                src={image}
                 alt={username}
             />
             <p className={css.title}>{username}</p>
