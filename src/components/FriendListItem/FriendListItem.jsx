@@ -1,4 +1,4 @@
-import css from './FriendListItems.module.css'
+import css from './FriendListItem.module.css'
 
 
 export default function FriendListItem({ avatar, name, isOnline }) {
@@ -9,7 +9,6 @@ export default function FriendListItem({ avatar, name, isOnline }) {
       <p className={css.name}>{name}</p>
       <p className={css.online}>{isOnline ? "Online" : <span className={css.offline}>Offline</span>}</p>
       </li>
-     
     </div>
   );
 }
